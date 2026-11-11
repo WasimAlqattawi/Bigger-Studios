@@ -1,0 +1,124 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ions {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 11rem;
+background: linear-gradient(90deg, #000 0%, #f00 50%, #000 100%) 0 0 / 33.33% 100% repeat-x;    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.promo__img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px 50px 0 0;
+}
+
+.promo__img--1 {
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0 60%);
+}
+
+.promo__img--2 {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+}
+
+.promo__img--3 {
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 84%);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header nav ul li a:hover {
+    color: #666;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card__image {
+    width: 100%;
+    border-radius: 30px;
+    aspect-ratio: 1 / 1.1;
+    object-fit: cover;
+}
+
+.product-card__price-old {
+    color: #aaa;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+}
